@@ -1,0 +1,92 @@
+{
+  "version-3.1.X-docs": {
+    "Introduction": [
+      "version-3.1.X-introduction/what-and-why",
+      "version-3.1.X-introduction/next-steps"
+    ],
+    "Backend": [
+      "version-3.1.X-backend/installation",
+      {
+        "type": "subcategory",
+        "label": "Usage with Express",
+        "ids": [
+          "version-3.1.X-backend/usage-with-express/initialisation",
+          "version-3.1.X-backend/usage-with-express/user-login",
+          "version-3.1.X-backend/usage-with-express/verify-session",
+          "version-3.1.X-backend/usage-with-express/session-object",
+          "version-3.1.X-backend/usage-with-express/refreshing-session",
+          "version-3.1.X-backend/usage-with-express/manipulating-session-data",
+          "version-3.1.X-backend/usage-with-express/user-logout",
+          "version-3.1.X-backend/usage-with-express/revoking-session"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Usage without Express",
+        "ids": [
+          "version-3.1.X-backend/usage-without-express/initialisation",
+          "version-3.1.X-backend/usage-without-express/user-login",
+          "version-3.1.X-backend/usage-without-express/verify-session",
+          "version-3.1.X-backend/usage-without-express/refreshing-session",
+          "version-3.1.X-backend/usage-without-express/manipulating-session-data",
+          "version-3.1.X-backend/usage-without-express/user-logout",
+          "version-3.1.X-backend/usage-without-express/revoking-session"
+        ]
+      },
+      "version-3.1.X-backend/error-handling",
+      "version-3.1.X-backend/session-handle",
+      "version-3.1.X-backend/token-theft",
+      "version-3.1.X-backend/blacklisting",
+      "version-3.1.X-backend/jwt-key-rotation",
+      "version-3.1.X-backend/config",
+      "version-3.1.X-backend/api-reference"
+    ],
+    "Frontend": [
+      "version-3.1.X-frontend/why",
+      {
+        "type": "subcategory",
+        "label": "Website",
+        "ids": [
+          "version-3.1.X-frontend/website/installation",
+          "version-3.1.X-frontend/website/initialisation",
+          "version-3.1.X-frontend/website/sending-requests",
+          "version-3.1.X-frontend/website/initialisation-axios",
+          "version-3.1.X-frontend/website/sending-requests-axios",
+          "version-3.1.X-frontend/website/manually-refresh",
+          "version-3.1.X-frontend/website/non-spa",
+          "version-3.1.X-frontend/website/graphql-usage",
+          "version-3.1.X-frontend/website/cookies-and-localstorage",
+          "version-3.1.X-frontend/website/api-reference"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "iOS",
+        "ids": [
+          "version-3.1.X-frontend/ios/coming-soon"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Android",
+        "ids": [
+          "version-3.1.X-frontend/android/coming-soon"
+        ]
+      }
+    ],
+    "How it works": [
+      "version-3.1.X-how-it-works/details"
+    ],
+    "Example Project": [
+      "version-3.1.X-try-it-out/example"
+    ],
+    "Limitations": [
+      "version-3.1.X-limitations/limitations"
+    ],
+    "Migration": [
+      "version-3.1.X-migration/backend",
+      "version-3.1.X-migration/database",
+      "version-3.1.X-migration/website"
+    ]
+  }
+}
