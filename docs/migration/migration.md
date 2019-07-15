@@ -1,7 +1,7 @@
 ---
-id: website
+id: migration
 title: Add SuperTokens to an existing website
-sidebar_label: Website
+sidebar_label: Migration
 ---
 
 ### Install the supertokens-website package
@@ -9,8 +9,6 @@ sidebar_label: Website
 ```js
 npm i --save supertokens-website@^3.1.0
 ```
-
-For more details visit the [installation](../introduction/installation) section
 
 ### Using ```fetch``` for API calls
 
@@ -26,7 +24,7 @@ For more information on how to integrate SuperTokens with your existing API setu
 
 If you use axios, you can use SuperTokens to add interceptors for requests and responses for axios, or you can replace all axios calls with SuperTokens function calls.
 
-Using SuperTokens to intercept axios API calls requires only a single function call. You can use the instance of axios you have already configured for your system. If you create multiple instances of axios over the course of your project, you need to call the SuperTokens ```makeSuper```([reference](../axios/initialisation.md#call-the-makesuper-function-api-reference-api-reference-initrefreshtokenurl-sessionexpiredstatuscode)) function for each instance for the package to work correctly.
+Using SuperTokens to intercept axios API calls requires only a single function call. You can use the instance of axios you have already configured for your system. If you create multiple instances of axios over the course of your project, you need to call the SuperTokens ```makeSuper```([reference](../axios/initialisation.md#call-the-makesuper-function-api-reference-api-reference-api-reference-supertokensaxiosmakesuperaxios)) function for each instance for the package to work correctly.
 
 If you choose to not let SuperTokens intercept API calls, you need to manually replace all axios API calls that require authentication with functions provided by this package. For example ```axios.post("URL", data, config)``` needs to be replaced with ```SuperTokens.post("URL", data, config)```.
 

@@ -14,8 +14,8 @@
         "sidebar_label": "Cookies and Localstorage"
       },
       "axios/initialisation": {
-        "title": "Initialisation & Imports Using Axios",
-        "sidebar_label": "Init & Imports Using Axios"
+        "title": "Initialisation & Imports",
+        "sidebar_label": "Init & Imports"
       },
       "axios/manually-refresh": {
         "title": "Manual refresh",
@@ -26,16 +26,16 @@
         "sidebar_label": "For non-SPA websites"
       },
       "axios/sending-requests": {
-        "title": "Sending Requests with Axios",
-        "sidebar_label": "Sending Requests with Axios"
+        "title": "Sending Requests",
+        "sidebar_label": "Sending Requests"
       },
       "fetch/cookies-and-localstorage": {
         "title": "Cookies and Localstorage",
         "sidebar_label": "Cookies and Localstorage"
       },
       "fetch/initialisation": {
-        "title": "Initialisation & Imports Using Fetch",
-        "sidebar_label": "Init & Imports Using Fetch"
+        "title": "Initialisation & Imports",
+        "sidebar_label": "Init & Imports"
       },
       "fetch/manually-refresh": {
         "title": "Manual refresh",
@@ -46,8 +46,8 @@
         "sidebar_label": "For non-SPA websites"
       },
       "fetch/sending-requests": {
-        "title": "Sending Requests with Fetch",
-        "sidebar_label": "Sending Requests with Fetch"
+        "title": "Sending Requests",
+        "sidebar_label": "Sending Requests"
       },
       "graphql/graphql-usage": {
         "title": "Usage with GraphQL",
@@ -58,12 +58,12 @@
         "sidebar_label": "Installation"
       },
       "introduction/why": {
-        "title": "Why is this needed",
+        "title": "Why is a frontend SDK needed?",
         "sidebar_label": "Why is this needed"
       },
-      "migration/website": {
+      "migration/migration": {
         "title": "Add SuperTokens to an existing website",
-        "sidebar_label": "Website"
+        "sidebar_label": "Migration"
       }
     },
     "links": {

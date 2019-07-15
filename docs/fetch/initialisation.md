@@ -1,7 +1,7 @@
 ---
 id: initialisation
-title: Initialisation & Imports Using Fetch
-sidebar_label: Init & Imports Using Fetch
+title: Initialisation & Imports
+sidebar_label: Init & Imports
 ---
 
 ## Importing
@@ -9,7 +9,7 @@ sidebar_label: Init & Imports Using Fetch
 import SuperTokensRequest from 'supertokens-website';
 ```
 
-## Call the ```init``` function: [API Reference](api-reference#supertokensfetchinitrefreshtokenurl-sessionexpiredstatuscode-viainterceptor)
+## Call the ```init``` function: [API Reference](../api-reference/api-reference#supertokensfetchinitrefreshtokenurl-sessionexpiredstatuscode-viainterceptor)
 ```js
 SuperTokensRequest.init("https://api.example.com/api/refreshsession", 440, true);
 ```

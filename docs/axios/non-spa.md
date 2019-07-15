@@ -6,7 +6,7 @@ sidebar_label: For non-SPA websites
 
 Authentication requires the use of access tokens. When those expire the API should return session expired error after which you should call the refresh token API. 
 
-This is trivial to do when this happens for an API call that you make from your frontend code. But when you go to a webpage via your browser's address bar, you do not get to handle the response and call the refresh token API in case that API requires authentication.
+This is trivial to do for an API call that you make from your frontend code. But when you go to a webpage via your browser's address bar, you do not get to handle the response and call the refresh token API in case that API requires authentication.
 
 Let's walk through an example for this:
 - In your backend code let's say you have a ```GET``` API at ```/home``` like so:

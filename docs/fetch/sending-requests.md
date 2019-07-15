@@ -1,7 +1,7 @@
 ---
 id: sending-requests
-title: Sending Requests with Fetch
-sidebar_label: Sending Requests with Fetch
+title: Sending Requests
+sidebar_label: Sending Requests
 ---
 
 ## With Interceptors
@@ -41,7 +41,7 @@ async function doAPICalls() {
 If the ```viaInterceptor``` option is ```false``` you need to replace all ```fetch``` calls that need authentication with the ```SuperTokensRequest.fetch``` function call. 
 
 
-#### Calling the ```fetch``` function: [API Reference](api-reference#supertokensfetchfetchurl-config)
+#### Calling the ```fetch``` function: [API Reference](../api-reference/api-reference#supertokensfetchfetchurl-config)
 
 ```js
 SuperTokensRequest.fetch("/someAPI", config);

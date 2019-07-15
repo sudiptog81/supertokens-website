@@ -1,12 +1,12 @@
 ---
 id: sending-requests
-title: Sending Requests with Axios
-sidebar_label: Sending Requests with Axios
+title: Sending Requests
+sidebar_label: Sending Requests
 ---
 
 ## With Interceptors
 
-If you call the ```makeSuper``` function using your instance of axios ([See initialisation guide](initialisation-with-axios.md#call-the-makesuper-function-api-reference-api-reference-makesuperaxios)), SuperTokens adds interceptors for requests and responses to axios. Everytime you make an API call using axios, SuperTokens does the following:
+If you call the ```makeSuper``` function using your instance of axios ([See initialisation guide](initialisation.md#call-the-makesuper-function-api-reference-api-reference-api-reference-supertokensaxiosmakesuperaxios)), SuperTokens adds interceptors for requests and responses to axios. Every time you make an API call using axios, SuperTokens does the following:
 
 - Intercept the request and append the ```anti-CSRF token``` to the header.
 - Intercept the response and in case the access token has expired, SuperTokens will automatically call the refresh token endpoint. After recieving the new tokens it will call attempt to call your API.
@@ -43,7 +43,7 @@ If you choose not to call the ```makeSuper``` function, you need to change all A
 - ```axios.post("URL", data, config) -> SuperTokensRequest.post("URL", data, config)```
 
 
-#### Calling the ```axios``` function: [API Reference](api-reference#supertokensaxiosaxiosdata-config)
+#### Calling the ```axios``` function: [API Reference](../api-reference/api-reference#supertokensaxiosaxiosdata-config)
 
 ```js
 SuperTokensRequest.axios("/someAPI", config);

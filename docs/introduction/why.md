@@ -1,13 +1,14 @@
 ---
 id: why
-title: Why is this needed
+title: Why is a frontend SDK needed?
 sidebar_label: Why is this needed
 ---
 
-- When your access token expires, this library silently and automatically calls your refresh session endpoint so that you do not have to worry about that.
-- Manages anti-csrf, access and refresh tokens for you
+- When your access token expires, this library silently and automatically calls your refresh session endpoint saving you development time.
+- Manages anti-csrf, access and refresh tokens for you.
 - Synchronizes with other requests to the refresh token endpoint as to prevent [this](https://hackernoon.com/the-best-way-to-securely-manage-user-sessions-91f27eeef460#e81c) race condition.
+- Provides interceptors for ```fetch``` and ```axios``` so that migration to SuperTokens will be easy.
 
-## Next steps
-- If you have a website, please start by seeing its [Installation guide](website/installation)
-- We are currently working on mobile SDKs for Android, iOS and React Native. [Reach out](mailto:team@supertokens.io) to us if you want to know our timeline or suggest more implementations. 
+<div class="specialNote">
+You also need to use our backend SDK for a complete solution. Please visit <a target="_blank" href="https://supertokens.io">our home page</a> to find the right one for you.
+</div>

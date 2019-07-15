@@ -8,7 +8,7 @@ sidebar_label: Manual refresh
 
 - You would only need to do this in certain cases if you are using a non single page application website framework or using server side rendering. Please see the [For non-SPA websites section](non-spa) for more information.
 
-## Call the ```attemptRefreshingSession``` function: [API Reference](api-reference#attemptrefreshingsession)
+## Call the ```attemptRefreshingSession``` function: [API Reference](../api-reference/api-reference#attemptrefreshingsession)
 ```js
 SuperTokensRequest.attemptRefreshingSession();
 ```
