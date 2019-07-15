@@ -64,6 +64,66 @@
       "migration/migration": {
         "title": "Add SuperTokens to an existing website",
         "sidebar_label": "Migration"
+      },
+      "version-3.1.X/api-reference/version-3.1.X-api-reference": {
+        "title": "API Reference",
+        "sidebar_label": "API Reference"
+      },
+      "version-3.1.X/axios/version-3.1.X-cookies-and-localstorage": {
+        "title": "Cookies and Localstorage",
+        "sidebar_label": "Cookies and Localstorage"
+      },
+      "version-3.1.X/axios/version-3.1.X-initialisation": {
+        "title": "Initialisation & Imports",
+        "sidebar_label": "Init & Imports"
+      },
+      "version-3.1.X/axios/version-3.1.X-manually-refresh": {
+        "title": "Manual refresh",
+        "sidebar_label": "Manual refresh"
+      },
+      "version-3.1.X/axios/version-3.1.X-non-spa": {
+        "title": "For non-SPA websites",
+        "sidebar_label": "For non-SPA websites"
+      },
+      "version-3.1.X/axios/version-3.1.X-sending-requests": {
+        "title": "Sending Requests",
+        "sidebar_label": "Sending Requests"
+      },
+      "version-3.1.X/fetch/version-3.1.X-cookies-and-localstorage": {
+        "title": "Cookies and Localstorage",
+        "sidebar_label": "Cookies and Localstorage"
+      },
+      "version-3.1.X/fetch/version-3.1.X-initialisation": {
+        "title": "Initialisation & Imports",
+        "sidebar_label": "Init & Imports"
+      },
+      "version-3.1.X/fetch/version-3.1.X-manually-refresh": {
+        "title": "Manual refresh",
+        "sidebar_label": "Manual refresh"
+      },
+      "version-3.1.X/fetch/version-3.1.X-non-spa": {
+        "title": "For non-SPA websites",
+        "sidebar_label": "For non-SPA websites"
+      },
+      "version-3.1.X/fetch/version-3.1.X-sending-requests": {
+        "title": "Sending Requests",
+        "sidebar_label": "Sending Requests"
+      },
+      "version-3.1.X/graphql/version-3.1.X-graphql-usage": {
+        "title": "Usage with GraphQL",
+        "sidebar_label": "Usage with GraphQL"
+      },
+      "version-3.1.X/introduction/version-3.1.X-installation": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "version-3.1.X/introduction/version-3.1.X-why": {
+        "title": "Why is a frontend SDK needed?",
+        "sidebar_label": "Why is this needed"
+      },
+      "version-3.1.X/migration/version-3.1.X-migration": {
+        "title": "Add SuperTokens to an existing website",
+        "sidebar_label": "Migration"
       }
     },
     "links": {
