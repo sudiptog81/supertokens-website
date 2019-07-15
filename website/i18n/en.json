@@ -5,373 +5,65 @@
     "previous": "Previous",
     "tagline": "Best session management",
     "docs": {
-      "backend/api-reference": {
+      "api-reference/api-reference": {
         "title": "API Reference",
         "sidebar_label": "API Reference"
       },
-      "backend/blacklisting": {
-        "title": "Blacklisting",
-        "sidebar_label": "Blacklisting"
-      },
-      "backend/config": {
-        "title": "Configuration",
-        "sidebar_label": "Configuration"
-      },
-      "backend/error-handling": {
-        "title": "Error Handling",
-        "sidebar_label": "Error Handling"
-      },
-      "backend/installation": {
-        "title": "Backend Installation",
-        "sidebar_label": "Installation"
-      },
-      "backend/jwt-key-rotation": {
-        "title": "JWT Signing key rotation",
-        "sidebar_label": "JWT Signing key rotation"
-      },
-      "backend/session-handle": {
-        "title": "Session Handle",
-        "sidebar_label": "Session Handle"
-      },
-      "backend/token-theft": {
-        "title": "Token Theft Detection",
-        "sidebar_label": "Token Theft Detection"
-      },
-      "backend/usage-with-express/initialisation": {
-        "title": "Initialisation & Imports",
-        "sidebar_label": "Init & Imports"
-      },
-      "backend/usage-with-express/manipulating-session-data": {
-        "title": "Manipulating Session Data",
-        "sidebar_label": "Manipulating Session Data"
-      },
-      "backend/usage-with-express/refreshing-session": {
-        "title": "Refreshing Session",
-        "sidebar_label": "Refreshing Session"
-      },
-      "backend/usage-with-express/revoking-session": {
-        "title": "Revoking Session",
-        "sidebar_label": "Revoking Session"
-      },
-      "backend/usage-with-express/session-object": {
-        "title": "Session Object",
-        "sidebar_label": "Session Object"
-      },
-      "backend/usage-with-express/user-login": {
-        "title": "User login",
-        "sidebar_label": "User login"
-      },
-      "backend/usage-with-express/user-logout": {
-        "title": "User Logout",
-        "sidebar_label": "User Logout"
-      },
-      "backend/usage-with-express/verify-session": {
-        "title": "Verify Session",
-        "sidebar_label": "Verify Session"
-      },
-      "backend/usage-without-express/initialisation": {
-        "title": "Initialisation & Imports",
-        "sidebar_label": "Init & Imports"
-      },
-      "backend/usage-without-express/manipulating-session-data": {
-        "title": "Manipulating Session Data",
-        "sidebar_label": "Manipulating Session Data"
-      },
-      "backend/usage-without-express/refreshing-session": {
-        "title": "Refreshing Session",
-        "sidebar_label": "Refreshing Session"
-      },
-      "backend/usage-without-express/revoking-session": {
-        "title": "Revoking Session",
-        "sidebar_label": "Revoking Session"
-      },
-      "backend/usage-without-express/user-login": {
-        "title": "User login",
-        "sidebar_label": "User login"
-      },
-      "backend/usage-without-express/user-logout": {
-        "title": "User Logout",
-        "sidebar_label": "User Logout"
-      },
-      "backend/usage-without-express/verify-session": {
-        "title": "Verify Session",
-        "sidebar_label": "Verify Session"
-      },
-      "frontend/android/coming-soon": {
-        "title": "Android",
-        "sidebar_label": "Coming Soon"
-      },
-      "frontend/ios/coming-soon": {
-        "title": "iOS",
-        "sidebar_label": "Coming Soon"
-      },
-      "frontend/react-native/coming-soon": {
-        "title": "Coming Soon",
-        "sidebar_label": "Coming Soon"
-      },
-      "frontend/website/api-reference": {
-        "title": "API Reference",
-        "sidebar_label": "API Reference"
-      },
-      "frontend/website/cookies-and-localstorage": {
+      "axios/cookies-and-localstorage": {
         "title": "Cookies and Localstorage",
         "sidebar_label": "Cookies and Localstorage"
       },
-      "frontend/website/graphql-usage": {
-        "title": "Usage with GraphQL",
-        "sidebar_label": "Usage with GraphQL"
-      },
-      "frontend/website/initialisation-axios": {
+      "axios/initialisation": {
         "title": "Initialisation & Imports Using Axios",
         "sidebar_label": "Init & Imports Using Axios"
       },
-      "frontend/website/initialisation": {
-        "title": "Initialisation & Imports Using Fetch",
-        "sidebar_label": "Init & Imports Using Fetch"
-      },
-      "frontend/website/installation": {
-        "title": "Installation",
-        "sidebar_label": "Installation"
-      },
-      "frontend/website/manually-refresh": {
+      "axios/manually-refresh": {
         "title": "Manual refresh",
         "sidebar_label": "Manual refresh"
       },
-      "frontend/website/non-spa": {
+      "axios/non-spa": {
         "title": "For non-SPA websites",
         "sidebar_label": "For non-SPA websites"
       },
-      "frontend/website/sending-requests-axios": {
+      "axios/sending-requests": {
         "title": "Sending Requests with Axios",
         "sidebar_label": "Sending Requests with Axios"
       },
-      "frontend/website/sending-requests": {
+      "fetch/cookies-and-localstorage": {
+        "title": "Cookies and Localstorage",
+        "sidebar_label": "Cookies and Localstorage"
+      },
+      "fetch/initialisation": {
+        "title": "Initialisation & Imports Using Fetch",
+        "sidebar_label": "Init & Imports Using Fetch"
+      },
+      "fetch/manually-refresh": {
+        "title": "Manual refresh",
+        "sidebar_label": "Manual refresh"
+      },
+      "fetch/non-spa": {
+        "title": "For non-SPA websites",
+        "sidebar_label": "For non-SPA websites"
+      },
+      "fetch/sending-requests": {
         "title": "Sending Requests with Fetch",
         "sidebar_label": "Sending Requests with Fetch"
       },
-      "frontend/why": {
+      "graphql/graphql-usage": {
+        "title": "Usage with GraphQL",
+        "sidebar_label": "Usage with GraphQL"
+      },
+      "introduction/installation": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "introduction/why": {
         "title": "Why is this needed",
         "sidebar_label": "Why is this needed"
-      },
-      "how-it-works/details": {
-        "title": "How it works",
-        "sidebar_label": "How it works"
-      },
-      "introduction/next-steps": {
-        "title": "Next Steps",
-        "sidebar_label": "Next Steps"
-      },
-      "introduction/what-and-why": {
-        "title": "SuperTokens",
-        "sidebar_label": "What and Why"
-      },
-      "limitations/limitations": {
-        "title": "Limitations",
-        "sidebar_label": "Limitations"
-      },
-      "migration/backend": {
-        "title": "Add SuperTokens to an existing system",
-        "sidebar_label": "Backend"
-      },
-      "migration/database": {
-        "title": "Add SuperTokens to an exisiting Database",
-        "sidebar_label": "Database"
       },
       "migration/website": {
         "title": "Add SuperTokens to an existing website",
         "sidebar_label": "Website"
-      },
-      "try-it-out/docker": {
-        "title": "Docker",
-        "sidebar_label": "Docker"
-      },
-      "try-it-out/example": {
-        "title": "Example code and Demo",
-        "sidebar_label": "Example code and Demo"
-      },
-      "version-3.1.X/backend/version-3.1.X-api-reference": {
-        "title": "API Reference",
-        "sidebar_label": "API Reference"
-      },
-      "version-3.1.X/backend/version-3.1.X-blacklisting": {
-        "title": "Blacklisting",
-        "sidebar_label": "Blacklisting"
-      },
-      "version-3.1.X/backend/version-3.1.X-config": {
-        "title": "Configuration",
-        "sidebar_label": "Configuration"
-      },
-      "version-3.1.X/backend/version-3.1.X-error-handling": {
-        "title": "Error Handling",
-        "sidebar_label": "Error Handling"
-      },
-      "version-3.1.X/backend/version-3.1.X-installation": {
-        "title": "Backend Installation",
-        "sidebar_label": "Installation"
-      },
-      "version-3.1.X/backend/version-3.1.X-jwt-key-rotation": {
-        "title": "JWT Signing key rotation",
-        "sidebar_label": "JWT Signing key rotation"
-      },
-      "version-3.1.X/backend/version-3.1.X-session-handle": {
-        "title": "Session Handle",
-        "sidebar_label": "Session Handle"
-      },
-      "version-3.1.X/backend/version-3.1.X-token-theft": {
-        "title": "Token Theft Detection",
-        "sidebar_label": "Token Theft Detection"
-      },
-      "version-3.1.X/backend/usage-with-express/version-3.1.X-initialisation": {
-        "title": "Initialisation & Imports",
-        "sidebar_label": "Init & Imports"
-      },
-      "version-3.1.X/backend/usage-with-express/version-3.1.X-manipulating-session-data": {
-        "title": "Manipulating Session Data",
-        "sidebar_label": "Manipulating Session Data"
-      },
-      "version-3.1.X/backend/usage-with-express/version-3.1.X-refreshing-session": {
-        "title": "Refreshing Session",
-        "sidebar_label": "Refreshing Session"
-      },
-      "version-3.1.X/backend/usage-with-express/version-3.1.X-revoking-session": {
-        "title": "Revoking Session",
-        "sidebar_label": "Revoking Session"
-      },
-      "version-3.1.X/backend/usage-with-express/version-3.1.X-session-object": {
-        "title": "Session Object",
-        "sidebar_label": "Session Object"
-      },
-      "version-3.1.X/backend/usage-with-express/version-3.1.X-user-login": {
-        "title": "User login",
-        "sidebar_label": "User login"
-      },
-      "version-3.1.X/backend/usage-with-express/version-3.1.X-user-logout": {
-        "title": "User Logout",
-        "sidebar_label": "User Logout"
-      },
-      "version-3.1.X/backend/usage-with-express/version-3.1.X-verify-session": {
-        "title": "Verify Session",
-        "sidebar_label": "Verify Session"
-      },
-      "version-3.1.X/backend/usage-without-express/version-3.1.X-initialisation": {
-        "title": "Initialisation & Imports",
-        "sidebar_label": "Init & Imports"
-      },
-      "version-3.1.X/backend/usage-without-express/version-3.1.X-manipulating-session-data": {
-        "title": "Manipulating Session Data",
-        "sidebar_label": "Manipulating Session Data"
-      },
-      "version-3.1.X/backend/usage-without-express/version-3.1.X-refreshing-session": {
-        "title": "Refreshing Session",
-        "sidebar_label": "Refreshing Session"
-      },
-      "version-3.1.X/backend/usage-without-express/version-3.1.X-revoking-session": {
-        "title": "Revoking Session",
-        "sidebar_label": "Revoking Session"
-      },
-      "version-3.1.X/backend/usage-without-express/version-3.1.X-user-login": {
-        "title": "User login",
-        "sidebar_label": "User login"
-      },
-      "version-3.1.X/backend/usage-without-express/version-3.1.X-user-logout": {
-        "title": "User Logout",
-        "sidebar_label": "User Logout"
-      },
-      "version-3.1.X/backend/usage-without-express/version-3.1.X-verify-session": {
-        "title": "Verify Session",
-        "sidebar_label": "Verify Session"
-      },
-      "version-3.1.X/frontend/android/version-3.1.X-coming-soon": {
-        "title": "Android",
-        "sidebar_label": "Coming Soon"
-      },
-      "version-3.1.X/frontend/ios/version-3.1.X-coming-soon": {
-        "title": "iOS",
-        "sidebar_label": "Coming Soon"
-      },
-      "version-3.1.X/frontend/react-native/version-3.1.X-coming-soon": {
-        "title": "Coming Soon",
-        "sidebar_label": "Coming Soon"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-api-reference": {
-        "title": "API Reference",
-        "sidebar_label": "API Reference"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-cookies-and-localstorage": {
-        "title": "Cookies and Localstorage",
-        "sidebar_label": "Cookies and Localstorage"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-graphql-usage": {
-        "title": "Usage with GraphQL",
-        "sidebar_label": "Usage with GraphQL"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-initialisation-axios": {
-        "title": "Initialisation & Imports Using Axios",
-        "sidebar_label": "Init & Imports Using Axios"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-initialisation": {
-        "title": "Initialisation & Imports Using Fetch",
-        "sidebar_label": "Init & Imports Using Fetch"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-installation": {
-        "title": "Installation",
-        "sidebar_label": "Installation"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-manually-refresh": {
-        "title": "Manual refresh",
-        "sidebar_label": "Manual refresh"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-non-spa": {
-        "title": "For non-SPA websites",
-        "sidebar_label": "For non-SPA websites"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-sending-requests-axios": {
-        "title": "Sending Requests with Axios",
-        "sidebar_label": "Sending Requests with Axios"
-      },
-      "version-3.1.X/frontend/website/version-3.1.X-sending-requests": {
-        "title": "Sending Requests with Fetch",
-        "sidebar_label": "Sending Requests with Fetch"
-      },
-      "version-3.1.X/frontend/version-3.1.X-why": {
-        "title": "Why is this needed",
-        "sidebar_label": "Why is this needed"
-      },
-      "version-3.1.X/how-it-works/version-3.1.X-details": {
-        "title": "How it works",
-        "sidebar_label": "How it works"
-      },
-      "version-3.1.X/introduction/version-3.1.X-next-steps": {
-        "title": "Next Steps",
-        "sidebar_label": "Next Steps"
-      },
-      "version-3.1.X/introduction/version-3.1.X-what-and-why": {
-        "title": "SuperTokens",
-        "sidebar_label": "What and Why"
-      },
-      "version-3.1.X/limitations/version-3.1.X-limitations": {
-        "title": "Limitations",
-        "sidebar_label": "Limitations"
-      },
-      "version-3.1.X/migration/version-3.1.X-backend": {
-        "title": "Add SuperTokens to an existing system",
-        "sidebar_label": "Backend"
-      },
-      "version-3.1.X/migration/version-3.1.X-database": {
-        "title": "Add SuperTokens to an exisiting Database",
-        "sidebar_label": "Database"
-      },
-      "version-3.1.X/migration/version-3.1.X-website": {
-        "title": "Add SuperTokens to an existing website",
-        "sidebar_label": "Website"
-      },
-      "version-3.1.X/try-it-out/version-3.1.X-docker": {
-        "title": "Docker",
-        "sidebar_label": "Docker"
-      },
-      "version-3.1.X/try-it-out/version-3.1.X-example": {
-        "title": "Example code and Demo",
-        "sidebar_label": "Example code and Demo"
       }
     },
     "links": {
@@ -381,12 +73,11 @@
     },
     "categories": {
       "Introduction": "Introduction",
-      "Backend": "Backend",
-      "Frontend": "Frontend",
-      "How it works": "How it works",
-      "Example Project": "Example Project",
-      "Limitations": "Limitations",
-      "Migration": "Migration"
+      "Usage with Fetch": "Usage with Fetch",
+      "Usage with Axios": "Usage with Axios",
+      "GraphQL": "GraphQL",
+      "Migration": "Migration",
+      "API Reference": "API Reference"
     }
   },
   "pages-strings": {
