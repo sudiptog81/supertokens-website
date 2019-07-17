@@ -6,7 +6,7 @@ sidebar_label: Why is this needed
 
 - When your access token expires, this library silently and automatically calls your refresh session endpoint saving you development time.
 - Manages anti-csrf, access and refresh tokens for you.
-- Synchronizes with other requests to the refresh token endpoint as to prevent [this](https://hackernoon.com/the-best-way-to-securely-manage-user-sessions-91f27eeef460#e81c) race condition.
+- Synchronizes with other requests to the refresh token endpoint as to prevent [this](https://medium.com/hackernoon/the-best-way-to-securely-manage-user-sessions-91f27eeef460#e81c) race condition.
 - Provides interceptors for ```fetch``` and ```axios``` so that migration to SuperTokens will be easy.
 
 <div class="specialNote">
