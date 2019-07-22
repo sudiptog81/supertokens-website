@@ -1,7 +1,8 @@
 ---
-id: cookies-and-localstorage
+id: version-3.2.X-cookies-and-localstorage
 title: Cookies and Localstorage
 sidebar_label: Cookies and Localstorage
+original_id: cookies-and-localstorage
 ---
 
 ## Following are the cookies that are used by our system:

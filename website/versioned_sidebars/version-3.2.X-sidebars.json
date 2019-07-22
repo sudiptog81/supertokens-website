@@ -1,0 +1,33 @@
+{
+  "version-3.2.X-docs": {
+    "Introduction": [
+      "version-3.2.X-introduction/why",
+      "version-3.2.X-introduction/installation"
+    ],
+    "Usage with Fetch": [
+      "version-3.2.X-fetch/initialisation",
+      "version-3.2.X-fetch/sending-requests",
+      "version-3.2.X-fetch/verifying-session",
+      "version-3.2.X-fetch/manually-refresh",
+      "version-3.2.X-fetch/non-spa",
+      "version-3.2.X-fetch/cookies-and-localstorage"
+    ],
+    "Usage with Axios": [
+      "version-3.2.X-axios/initialisation",
+      "version-3.2.X-axios/sending-requests",
+      "version-3.2.X-axios/verifying-session",
+      "version-3.2.X-axios/manually-refresh",
+      "version-3.2.X-axios/non-spa",
+      "version-3.2.X-axios/cookies-and-localstorage"
+    ],
+    "GraphQL": [
+      "version-3.2.X-graphql/graphql-usage"
+    ],
+    "Migration": [
+      "version-3.2.X-migration/migration"
+    ],
+    "API Reference": [
+      "version-3.2.X-api-reference/api-reference"
+    ]
+  }
+}

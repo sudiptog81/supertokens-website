@@ -1,7 +1,8 @@
 ---
-id: installation
+id: version-3.2.X-installation
 title: Installation
 sidebar_label: Installation
+original_id: installation
 ---
 
 ## Install SuperTokens website package

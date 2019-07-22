@@ -1,7 +1,8 @@
 ---
-id: manually-refresh
+id: version-3.2.X-manually-refresh
 title: Manual refresh
 sidebar_label: Manual refresh
+original_id: manually-refresh
 ---
 
 - This is needed in case you want to call the refresh session endpoint yourself.
@@ -18,7 +19,7 @@ SuperTokensRequest.attemptRefreshingSession();
 
 ## Example code
 ```js
-import SuperTokensRequest from 'supertokens-website';
+import SuperTokensRequest from 'supertokens-website/axios';
 
 SuperTokensRequest.attemptRefreshingSession().then(success => {
     if (success) {
@@ -27,7 +28,7 @@ SuperTokensRequest.attemptRefreshingSession().then(success => {
         // session has expired - please redirect to login page.
     }
 }).catch(err => {
-    if (err.status === 500) {
+    if (err.response !== undefined && err.response.status === 500) {
         // server error
     } else {
         // handle more errors.

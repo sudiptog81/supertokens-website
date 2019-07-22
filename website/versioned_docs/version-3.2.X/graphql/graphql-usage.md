@@ -1,7 +1,8 @@
 ---
-id: graphql-usage
+id: version-3.2.X-graphql-usage
 title: Usage with GraphQL
 sidebar_label: Usage with GraphQL
+original_id: graphql-usage
 ---
 
 ## Usage with Interceptors

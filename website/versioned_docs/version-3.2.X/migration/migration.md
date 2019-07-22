@@ -1,7 +1,8 @@
 ---
-id: migration
+id: version-3.2.X-migration
 title: Add SuperTokens to an existing website
 sidebar_label: Migration
+original_id: migration
 ---
 
 ### Install the supertokens-website package

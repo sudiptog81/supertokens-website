@@ -1,7 +1,8 @@
 ---
-id: sending-requests
+id: version-3.2.X-sending-requests
 title: Sending Requests
 sidebar_label: Sending Requests
+original_id: sending-requests
 ---
 
 ## With Interceptors

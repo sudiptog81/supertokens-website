@@ -1,7 +1,8 @@
 ---
-id: manually-refresh
+id: version-3.2.X-manually-refresh
 title: Manual refresh
 sidebar_label: Manual refresh
+original_id: manually-refresh
 ---
 
 - This is needed in case you want to call the refresh session endpoint yourself.

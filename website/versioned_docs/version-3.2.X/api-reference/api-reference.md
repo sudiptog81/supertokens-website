@@ -1,7 +1,8 @@
 ---
-id: api-reference
+id: version-3.2.X-api-reference
 title: API Reference
 sidebar_label: API Reference
+original_id: api-reference
 ---
 
 ## Importing

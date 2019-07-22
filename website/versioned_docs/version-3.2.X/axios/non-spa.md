@@ -1,7 +1,8 @@
 ---
-id: non-spa
+id: version-3.2.X-non-spa
 title: For non-SPA websites
 sidebar_label: For non-SPA websites
+original_id: non-spa
 ---
 
 Authentication requires the use of access tokens. When those expire the API should return session expired error after which you should call the refresh token API. 
@@ -46,7 +47,7 @@ Let's walk through a NodeJS example for this:
       <body>
           <!-- some pretty UI -->
           <script>
-              // load supertokens-website lib as SuperTokensRequest
+              // load supertokens-website/axios lib as SuperTokensRequest
               SuperTokensRequest.init("/refreshsession", 440);
               SuperTokensRequest.attemptRefreshingSession().then(success => {
                   if (success) {

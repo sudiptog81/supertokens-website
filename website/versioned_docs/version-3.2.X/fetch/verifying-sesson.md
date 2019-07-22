@@ -1,7 +1,8 @@
 ---
-id: verifying-session
+id: version-3.2.X-verifying-session
 title: Verifying Session
 sidebar_label: Verifying Session
+original_id: verifying-session
 ---
 
 This section describes how you can check if a session exists.
