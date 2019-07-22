@@ -49,6 +49,10 @@
         "title": "Sending Requests",
         "sidebar_label": "Sending Requests"
       },
+      "fetch/verifying-session": {
+        "title": "Verifying Session",
+        "sidebar_label": "Verifying Session"
+      },
       "graphql/graphql-usage": {
         "title": "Usage with GraphQL",
         "sidebar_label": "Usage with GraphQL"

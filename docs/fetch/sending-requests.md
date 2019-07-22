@@ -6,32 +6,37 @@ sidebar_label: Sending Requests
 
 ## With Interceptors
 
-If you set the ```viaInterceptor``` option to ```true``` when initialising SuperTokens ([See initialisation guide](initialisation.md)), the package intercepts all fetch API calls. Then when you make an API call the SuperTokens package will do the following:
+If you set the ```viaInterceptor``` option to ```true``` when initialising SuperTokens ([See initialisation guide](initialisation.md)), the package intercepts all fetch API calls.
 
-- Append the ```anti-CSRF token``` to the request header.
-- In case of access token expiry the package will call the refresh token endpoint, recieve the new tokens and then make the request again with the new tokens.
-- Return the response if successful, or return the Error if failed
+<span class="highlighted-text">You do not need to change any of your existing API calls for this to work</span>
 
 ```js
 import SuperTokensRequest from 'supertokens-website';
 
 const SESSION_EXPIRED_STATUS_CODE = 440;
 
+// call this when your app starts
+SuperTokensRequest.init("/refreshTokenURL", SESSION_EXPIRED_STATUS_CODE, true);
+
 async function doAPICalls() {
-    SuperTokensRequest.init("/refreshTokenURL", SESSION_EXPIRED_STATUS_CODE, true);
     try {
+        // make API call as usual
         let fetchConfig = { ... };
         let response = await fetch("/someAPI", fetchConfig);
+
+        // handle response
         if (response.status !== 200) {
             throw response;
         }
         let data = await response.json();
         let someField = data.someField;
+        // ...
     } catch (err) {
         if (err.status === SESSION_EXPIRED_STATUS_CODE) {
-            // redirect usee to login
+            // redirect user to login
+        } else {
+            // handle error
         }
-        // handle error
     }
 }
 ```
@@ -41,7 +46,7 @@ async function doAPICalls() {
 If the ```viaInterceptor``` option is ```false``` you need to replace all ```fetch``` calls that need authentication with the ```SuperTokensRequest.fetch``` function call. 
 
 
-#### Calling the ```fetch``` function: [API Reference](../api-reference/api-reference#supertokensfetchfetchurl-config)
+### Calling the ```fetch``` function: [API Reference](../api-reference/api-reference#supertokensfetchfetchurl-config)
 
 ```js
 SuperTokensRequest.fetch("/someAPI", config);
@@ -53,22 +58,27 @@ SuperTokensRequest.fetch("/someAPI", config);
 import SuperTokensRequest from 'supertokens-website';
 
 const SESSION_EXPIRED_STATUS_CODE = 440;
+SuperTokensRequest.init("/refreshTokenURL", SESSION_EXPIRED_STATUS_CODE, false);
 
 async function doAPICalls() {
-    SuperTokensRequest.init("/refreshTokenURL", SESSION_EXPIRED_STATUS_CODE, false);
     try {
+        // make API call as usual
         let fetchConfig = { ... };
         let response = await SuperTokensRequest.fetch("/someAPI", fetchConfig);
+
+        // handle response
         if (response.status !== 200) {
             throw response;
         }
         let data = await response.json();
         let someField = data.someField;
+        // ...
     } catch (err) {
         if (err.status === SESSION_EXPIRED_STATUS_CODE) {
             // redirect usee to login
+        } else {
+            // handle error
         }
-        // handle error
     }
 }
 ```
