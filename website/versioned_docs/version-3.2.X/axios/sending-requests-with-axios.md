@@ -21,7 +21,7 @@ SuperTokensRequest.init("refreshTokenUrl", SESSION_EXPIRED_STATUS_CODE);
 async function doAPICalls() {
     try {
         let postData = { ... };
-        let response = await axios({url: "someAPI", method: "post", postData });
+        let response = await axios({url: "someAPI", method: "post", data: postData });
         let data = await response.data;
         let someField = data.someField;
     } catch (err) {
@@ -61,7 +61,7 @@ SuperTokensRequest.init("refreshTokenUrl", SESSION_EXPIRED_STATUS_CODE)
 async function doAPICalls() {
     try {
         let postData = { ... };
-        let response = await SuperTokensRequest.axios({url: "someAPI", method: "post", postData });
+        let response = await SuperTokensRequest.axios({url: "someAPI", method: "post", data: postData });
         let data = await response.data;
         let someField = data.someField;
     } catch (err) {
