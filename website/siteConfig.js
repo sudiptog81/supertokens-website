@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "introduction/why", label: "Docs" },
-    { href: "https://discordapp.com/invite/zVcVeev", label: "Discord" },
+    { href: "https://supertokens.io/discord", label: "Discord" },
     { href: "https://medium.com/hackernoon/the-best-way-to-securely-manage-user-sessions-91f27eeef460", label: "Blog" }
   ],
   disableHeaderTitle: false,
