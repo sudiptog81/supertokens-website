@@ -293,3 +293,36 @@ a.highlighted-text {
 .feedback-button-sad:hover {
     content: url("../img/sadSelected.png");
 }
+
+
+ /* ZOHO CONTENT */
+
+ .zsiq_theme1 div.zsiq_cnt {
+    background-color: #dddddd !important;
+    box-shadow: none !important;
+}
+
+.zsiq_theme1 .zsiq_cnt:after {
+    background-color: #dddddd !important;
+    box-shadow: none !important;
+}
+
+.zsiq_ellips, .zsiq_flt_rel div, .zsiq_flt_rel span, .zsiq_theme5 .zsiq_flt_rel p {
+    color: #222222 !important;
+    font-weight: bold !important;
+}
+
+.zsiq_theme1 .zsiq_cnt p {
+    color: #222222 !important;
+    font-weight: normal !important
+}
+
+.zsiq_custommain img {
+  height: 60px !important;
+  width: 60px !important;
+}
+
+.siq_bR {
+  right: 26px !important;
+  bottom: 26px !important;
+}
