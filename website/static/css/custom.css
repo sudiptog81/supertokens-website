@@ -324,5 +324,9 @@ a.highlighted-text {
 
 .siq_bR {
   right: 20px !important;
-  bottom: 80px !important;
+  bottom: 20px !important;
+}
+
+#back-to-top {
+    bottom: 85px !important;
 }
