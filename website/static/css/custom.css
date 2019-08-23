@@ -323,8 +323,8 @@ a.highlighted-text {
 }
 
 .siq_bR {
-  right: 26px !important;
-  bottom: 26px !important;
+  right: 20px !important;
+  bottom: 20px !important;
 }
 
 .zsiq_custommain .zsiq_unrdcnt, .zsiq_theme1 .zsiq_unrdcnt {
@@ -340,4 +340,8 @@ a.highlighted-text {
   border-width: 2px !important;
   border-color: #141414 !important;
   border-style: solid;
+}
+
+#back-to-top {
+    bottom: 90px !important;
 }
