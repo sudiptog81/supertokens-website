@@ -297,7 +297,7 @@ a.highlighted-text {
 
  /* ZOHO CONTENT */
 
- /* .zsiq_theme1 div.zsiq_cnt {
+ .zsiq_theme1 div.zsiq_cnt {
     background-color: #dddddd !important;
     box-shadow: none !important;
 }
@@ -323,10 +323,21 @@ a.highlighted-text {
 }
 
 .siq_bR {
-  right: 20px !important;
-  bottom: 20px !important;
+  right: 26px !important;
+  bottom: 26px !important;
 }
 
-#back-to-top {
-    bottom: 90px !important;
-} */
+.zsiq_custommain .zsiq_unrdcnt, .zsiq_theme1 .zsiq_unrdcnt {
+  background-color: white !important;
+  height: 26px !important;
+  width: 26px !important;
+  color: #141414 !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+  border-width: 2px !important;
+  border-color: #141414 !important;
+  border-style: solid;
+}
